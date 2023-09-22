@@ -1,0 +1,28 @@
+<vbox style="padding: 5px">	
+	<style>
+        .button {
+            font-size: 20px;
+        }
+    </style>
+    <vbox>
+        <tabview width="500" height="470">
+            <vbox text="Вкладка 1">
+                <hbox height="100%">
+                        <textarea width="480" height="415" id="myTextArea3" />
+                </hbox>      
+            </vbox>
+            <vbox text="Вкладка 2">
+                <hbox height="100%">
+                    <textarea width="480" height="415" id="myTextArea2"  />
+                </hbox>
+            </vbox>
+            <vbox text="Вкладка 3">
+                <vbox>
+                   <hbox height="100%">
+                        <textarea width="480" height="415" id="myTextArea" />
+                    </hbox>
+                </vbox> 
+            </vbox>
+        </tabview>
+    </vbox>   
+</vbox>
